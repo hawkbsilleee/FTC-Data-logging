@@ -16,5 +16,5 @@ The maximum velocity of the intake motor decreased by approximately 7% when the 
 ## File Structure
 * Datalogger.java -> contains the Java class that handles all details of storing the robot data in a datalog file.
 * ConceptDatalogger.java -> is the OpMode that's run from the Driver Station. It specifies and collects the robot data to be logged and ultimately charted. The OpMode uses, or calls, commands/methods provided in the Datalogger class.
-* something.txt -> raw .csv file that records the robot data when the OpMode is run.
+* logs -> folder containing the raw data files that are recorded on the robot when the OpMode is run.
 * Robot Datalogging Analysis.csv -> processed data. 
